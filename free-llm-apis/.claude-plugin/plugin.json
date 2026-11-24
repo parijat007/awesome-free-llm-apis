@@ -1,0 +1,12 @@
+{
+  "name": "free-llm-apis",
+  "version": "1.0.0",
+  "description": "Pick a free LLM API provider (Gemini, Groq, Cerebras, Mistral, OpenRouter, and more), get a key, and test it.",
+  "author": {
+    "name": "parijat007"
+  },
+  "repository": "https://github.com/parijat007/awesome-free-llm-apis",
+  "license": "CC0-1.0",
+  "keywords": ["llm", "api", "free-tier", "openai-compatible"],
+  "skills": ["./"]
+}

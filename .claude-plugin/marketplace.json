@@ -1,0 +1,18 @@
+{
+  "name": "awesome-free-llm-apis",
+  "owner": {
+    "name": "parijat007"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for finding and configuring free LLM APIs."
+  },
+  "plugins": [
+    {
+      "name": "free-llm-apis",
+      "source": "./free-llm-apis",
+      "description": "Pick a free LLM API provider (Gemini, Groq, Cerebras, Mistral, OpenRouter, and more), get a key, and test it.",
+      "category": "development",
+      "keywords": ["llm", "api", "free-tier", "openai-compatible"]
+    }
+  ]
+}

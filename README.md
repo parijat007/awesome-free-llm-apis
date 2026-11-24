@@ -36,6 +36,7 @@
 - [Provider APIs](#provider-apis)
 - [Inference providers](#inference-providers)
 - [Glossary](#glossary)
+- [Use with Claude Code](#use-with-claude-code)
 
 ## Provider APIs
 
@@ -341,6 +342,21 @@ Base URL: `https://api.siliconflow.cn/v1`
 | **TPM**      | Tokens per minute   |
 | **TPD**      | Tokens per day      |
 | **RPS**      | Requests per second |
+
+## Use with Claude Code
+
+This repo is also a Claude Code plugin marketplace. The `free-llm-apis` plugin adds a skill that helps you pick a provider from this list, get a key, and test it.
+
+```
+/plugin install free-llm-apis --marketplace parijat007/awesome-free-llm-apis
+```
+
+On older Claude Code versions, add the marketplace first:
+
+```
+/plugin marketplace add parijat007/awesome-free-llm-apis
+/plugin install free-llm-apis@awesome-free-llm-apis
+```
 
 ## Contributing
 
